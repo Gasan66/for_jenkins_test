@@ -6,7 +6,7 @@ pipeline {
         stage('checkout role'){
             steps{
                 dir('mnt-homeworks-ansible') {
-                    git branch: 'main', credentialsId: '2ae3ac29-908a-45f9-9cea-90d9ab9db609', url: 'git@github.com:netology-code/mnt-homeworks-ansible.git'
+                    git credentialsId: '1a426d9e-fab0-4b28-9fd6-f20ea93a78e2', url: 'git@github.com:Gasan66/for_jenkins_test.git'
                 }
             }
         }
